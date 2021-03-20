@@ -1,0 +1,1147 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+.margin_school{
+    position: absolute;
+    
+   
+   
+}
+
+
+
+
+/* testimonial css */
+
+
+
+
+
+.testimonial_div1_about{
+    background-color: white;
+  height: 400px;
+  width: 350px;
+  float: left;
+  margin: 10px;
+  margin-left: 155px;
+  border-radius: 20px;
+  padding: 19px 24px;
+  }
+  
+  .testi_outer_about{
+  position: relative;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  
+   
+  }
+  
+   @keyframes slideer{
+   0%{
+     margin-left: 0px;
+   }
+   100%{
+     margin-left: -500px;
+   }
+  
+  } 
+  
+  
+  
+
+
+
+
+  /* new testmonial */
+
+  .outer_about{
+      display: flex;
+
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 30px;
+    overflow: hidden;
+    animation: slideer 10s 5s ease infinite ;
+   
+  }
+
+  .inner_slider{
+    display: flex;
+    
+    
+  }
+
+  
+  
+
+
+  .outer_about:hover{
+    animation-play-state: paused;
+ 
+}
+
+  .inner_about{
+      width: 370px;
+      height: 420px;
+      background-color: #bedcfa;
+      border-radius: 30px;
+      padding: 30px;
+      margin: 60px;
+      
+      
+  }
+
+  .inner_about_img{
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+  }
+
+  .inner_about_name{
+      padding: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      color: black;
+
+  }
+  .about_quallification{
+      padding-bottom: 20px;
+      color: black;
+  }
+
+  .inner_about_para{
+      color: black;
+  }
+
+
+  @media (min-width: 0px) and (max-width: 769px){
+	#slideshow{
+		display: none;
+	}
+  #plvDIV_5 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+
+/* responsive */
+
+
+main {
+    box-sizing: border-box;
+    color: #707070;
+    font-family: Roboto, sans-serif;
+    margin-top: 3000px;
+  }
+  
+  #test-list {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1.5rem auto;
+    width: 75%;
+    max-width: 1200px;
+    section {
+      margin-bottom: 50px;
+      width: 264px;
+      .top-box {
+        background-color: #DFDBD5;
+        width: 263px;
+        height: 103px;
+        position: absolute;
+        z-index: 1;
+      }
+      
+      img {
+        background-color: gray;
+        border-radius: 100%;
+        border: 3px soild #D4D4D4;
+        width: 133px;
+        height: 133px;
+        object-fit: cover;
+        position: relative;
+        display: block;
+        margin: auto;
+        top: 15px;
+        z-index: 5;
+      }
+      
+      .bottom-box {
+        box-shadow: 2px 3px 6px rgba(0,0,0,0.16);
+        width: 263px;
+        height: 238px;
+        transform: translateY(-50px);
+        blockquote {
+          margin: 0 auto;
+          padding: 0;
+          width: 210px;
+          p {
+            font-style: italic;
+            font-size: 16px;
+            line-height: 21px;
+            padding-top: 60px;
+          }
+        }
+        
+        .test-details {
+          text-align: center;
+          span {
+            font-size: 18px;
+            font-weight: 500;
+          }
+        }
+        
+      }
+      
+    }
+    
+  }
+  
+
+  @media (min-width: 769px) and (max-width: 1769px){
+    main{
+      display: none;
+    }
+}
+
+
+
+
+
+
+
+// school css
+
+#plvDIV_1 {
+  align-items: center;
+  block-size: 476px;
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  bottom: 0px;
+  box-sizing: border-box;
+  display: flex;
+  height: 476px;
+  inline-size: 1583px;
+  inset-block-end: 0px;
+  inset-block-start: 0px;
+  inset-inline-end: 0px;
+  inset-inline-start: 0px;
+  left: 0px;
+  margin-block-start: 80px;
+  padding-block-end: 40px;
+  padding-block-start: 40px;
+  padding-inline-end: 16px;
+  padding-inline-start: 16px;
+  perspective-origin: 791.5px 238px;
+  position: relative;
+  right: 0px;
+  text-size-adjust: 100%;
+  top: 0px;
+  transform-origin: 791.5px 238px;
+  width: 1583px;
+  background: rgba(0, 0, 0, 0) linear-gradient(rgba(255, 247, 245, 0.5) -0.53%, rgba(236, 240, 253, 0) 93.39%) repeat scroll 0% 0% / auto padding-box border-box;
+  border: 0px solid rgb(0, 0, 0);
+  flex-flow: column nowrap;
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 80px 0px 0px;
+  padding: 40px 16px;
+}/*#plvDIV_1*/
+
+#plvDIV_1:after {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  display: block;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvDIV_1:after*/
+
+#plvDIV_1:before {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  display: block;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvDIV_1:before*/
+
+#plvIMG_2 {
+  block-size: 512px;
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  bottom: 0px;
+  box-sizing: border-box;
+  display: block;
+  height: 512px;
+  inline-size: 501.688px;
+  inset-block-end: 0px;
+  inset-block-start: -36px;
+  inset-inline-end: 1081.31px;
+  inset-inline-start: 0px;
+  left: 0px;
+  max-inline-size: 100%;
+  max-width: 100%;
+  perspective-origin: 250.844px 256px;
+  position: absolute;
+  right: 1081.31px;
+  text-size-adjust: 100%;
+  top: -36px;
+  transform-origin: 250.844px 256px;
+  vertical-align: middle;
+  width: 501.688px;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvIMG_2*/
+
+#plvIMG_2:after {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvIMG_2:after*/
+
+#plvIMG_2:before {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvIMG_2:before*/
+
+#plvIMG_3 {
+  block-size: 320px;
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  bottom: 76px;
+  box-sizing: border-box;
+  display: block;
+  height: 320px;
+  inline-size: 447.391px;
+  inset-block-end: 76px;
+  inset-block-start: 0px;
+  inset-inline-end: 0px;
+  inset-inline-start: 1135.61px;
+  left: 1135.61px;
+  margin-block-start: 80px;
+  max-inline-size: 100%;
+  max-width: 100%;
+  perspective-origin: 223.688px 160px;
+  position: absolute;
+  right: 0px;
+  text-size-adjust: 100%;
+  top: 0px;
+  transform-origin: 223.695px 160px;
+  vertical-align: middle;
+  width: 447.391px;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 80px 0px 0px;
+}/*#plvIMG_3*/
+
+#plvIMG_3:after {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvIMG_3:after*/
+
+#plvIMG_3:before {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvIMG_3:before*/
+
+#plvP_4 {
+  block-size: 60px;
+  border-block-end-color: rgb(51, 51, 51);
+  border-block-end-style: solid;
+  border-block-start-color: rgb(51, 51, 51);
+  border-block-start-style: solid;
+  border-inline-end-color: rgb(51, 51, 51);
+  border-inline-end-style: solid;
+  border-inline-start-color: rgb(51, 51, 51);
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  caret-color: rgb(51, 51, 51);
+  color: rgb(51, 51, 51);
+  column-rule-color: rgb(51, 51, 51);
+  height: 60px;
+  
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  min-block-size: auto;
+  min-height: auto;
+  min-inline-size: auto;
+  min-width: auto;
+  perspective-origin: 183.219px 30px;
+  text-align: center;
+  text-decoration: none solid rgb(51, 51, 51);
+  text-size-adjust: 100%;
+  transform-origin: 183.226px 30px;
+  
+  border: 0px solid rgb(51, 51, 51);
+  font: 700 40px / 60px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 0px;
+  outline: rgb(51, 51, 51) none 0px;
+}/*#plvP_4*/
+
+#plvP_4:after {
+  border-block-end-color: rgb(51, 51, 51);
+  border-block-end-style: solid;
+  border-block-start-color: rgb(51, 51, 51);
+  border-block-start-style: solid;
+  border-inline-end-color: rgb(51, 51, 51);
+  border-inline-end-style: solid;
+  border-inline-start-color: rgb(51, 51, 51);
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  caret-color: rgb(51, 51, 51);
+  color: rgb(51, 51, 51);
+  column-rule-color: rgb(51, 51, 51);
+  text-align: center;
+  text-decoration: none solid rgb(51, 51, 51);
+  text-size-adjust: 100%;
+  border: 0px solid rgb(51, 51, 51);
+  font: 700 40px / 60px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  outline: rgb(51, 51, 51) none 0px;
+}/*#plvP_4:after*/
+
+#plvP_4:before {
+  border-block-end-color: rgb(51, 51, 51);
+  border-block-end-style: solid;
+  border-block-start-color: rgb(51, 51, 51);
+  border-block-start-style: solid;
+  border-inline-end-color: rgb(51, 51, 51);
+  border-inline-end-style: solid;
+  border-inline-start-color: rgb(51, 51, 51);
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  caret-color: rgb(51, 51, 51);
+  color: rgb(51, 51, 51);
+  column-rule-color: rgb(51, 51, 51);
+  text-align: center;
+  text-decoration: none solid rgb(51, 51, 51);
+  text-size-adjust: 100%;
+  border: 0px solid rgb(51, 51, 51);
+  font: 700 40px / 60px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  outline: rgb(51, 51, 51) none 0px;
+}/*#plvP_4:before*/
+
+#plvDIV_5 {
+  block-size: 336px;
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  display: flex;
+  height: 336px;
+  inline-size: 1216px;
+  justify-content: space-between;
+  min-block-size: auto;
+  min-height: auto;
+  min-inline-size: auto;
+  min-width: auto;
+  perspective-origin: 608px 168px;
+  text-size-adjust: 100%;
+  transform-origin: 608px 168px;
+  width: 1216px;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvDIV_5*/
+
+#plvDIV_5:after {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  display: block;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvDIV_5:after*/
+
+#plvDIV_5:before {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  display: block;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvDIV_5:before*/
+
+#plvDIV_6, #plvDIV_16 {
+  
+  
+ 
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+ 
+  display: flex;
+  
+  
+  
+  justify-content: center;
+  left: 0px;
+  margin-block-start: 80px;
+  margin-inline-end: 80px;
+  margin-inline-start: 80px;
+  max-inline-size: 448px;
+
+  min-block-size: auto;
+  min-height: auto;
+  min-inline-size: auto;
+  min-width: auto;
+
+  position: relative;
+  right: 0px;
+  text-size-adjust: 100%;
+  top: 0px;
+  transform-origin: 224px 128px;
+  width: 448px;
+  background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  flex-flow: column nowrap;
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 80px 80px 0px;
+  padding: 0px 40px;
+}/*#plvDIV_6, #plvDIV_16*/
+
+#plvDIV_6:after, #plvDIV_16:after {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  display: block;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvDIV_6:after, #plvDIV_16:after*/
+
+#plvDIV_6:before, #plvDIV_16:before {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  display: block;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvDIV_6:before, #plvDIV_16:before*/
+
+#plvIMG_7, #plvIMG_17 {
+  block-size: 48px;
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  bottom: 228px;
+  box-sizing: border-box;
+  display: block;
+  height: 48px;
+  inline-size: 60.7031px;
+  inset-block-end: 228px;
+  inset-block-start: 0px;
+  inset-inline-end: 367.297px;
+  inset-inline-start: 0px;
+  left: 0px;
+  margin-block-start: -20px;
+  margin-inline-start: 20px;
+  max-inline-size: 100%;
+  max-width: 100%;
+  perspective-origin: 30.3438px 24px;
+  position: absolute;
+  right: 367.297px;
+  text-size-adjust: 100%;
+  top: 0px;
+  transform-origin: 30.3516px 24px;
+  vertical-align: middle;
+  width: 60.7031px;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: -20px 0px 0px 20px;
+}/*#plvIMG_7, #plvIMG_17*/
+
+#plvIMG_7:after, #plvIMG_17:after {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvIMG_7:after, #plvIMG_17:after*/
+
+#plvIMG_7:before, #plvIMG_17:before {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvIMG_7:before, #plvIMG_17:before*/
+
+#plvIMG_8, #plvIMG_18 {
+  block-size: 48px;
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  bottom: 228px;
+  box-sizing: border-box;
+  display: flex;
+  height: 98px;
+  inline-size: 105.172px;
+  inset-block-end: 228px;
+  inset-block-start: 0px;
+  inset-inline-end: 0px;
+  inset-inline-start: 322.828px;
+  left: 322.828px;
+  margin-block-start: -20px;
+  margin-inline-end: 20px;
+  max-inline-size: 100%;
+  max-width: 100%;
+  perspective-origin: 52.5781px 24px;
+  position: absolute;
+  right: 0px;
+  text-size-adjust: 100%;
+  top: 0px;
+  transform-origin: 52.5859px 24px;
+  vertical-align: middle;
+  width: 105.172px;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: -20px 20px 0px 0px;
+}/*#plvIMG_8, #plvIMG_18*/
+
+#plvIMG_8:after, #plvIMG_18:after {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  display: block;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvIMG_8:after, #plvIMG_18:after*/
+
+#plvIMG_8:before, #plvIMG_18:before {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  display: block;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvIMG_8:before, #plvIMG_18:before*/
+
+#plvIMG_9, #plvIMG_19 {
+  block-size: 80px;
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  bottom: 0px;
+  box-sizing: border-box;
+  display: flex;
+  height: 80px;
+  inline-size: 71.3906px;
+  inset-block-end: 0px;
+  inset-block-start: 196px;
+  inset-inline-end: 396.609px;
+  inset-inline-start: 0px;
+  left: 0px;
+  margin-block-end: -20px;
+  margin-inline-start: -20px;
+  max-inline-size: 100%;
+  max-width: 100%;
+  perspective-origin: 35.6875px 40px;
+  position: absolute;
+  right: 396.609px;
+  text-size-adjust: 100%;
+  top: 196px;
+  transform-origin: 35.6953px 40px;
+  vertical-align: middle;
+  width: 71.3906px;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 0px 0px -20px -20px;
+}/*#plvIMG_9, #plvIMG_19*/
+
+#plvIMG_9:after, #plvIMG_19:after {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  display: block;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvIMG_9:after, #plvIMG_19:after*/
+
+#plvIMG_9:before, #plvIMG_19:before {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  display: block;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvIMG_9:before, #plvIMG_19:before*/
+
+#plvIMG_10, #plvIMG_20 {
+  block-size: 48px;
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  bottom: 0px;
+  box-sizing: border-box;
+  display: flex;
+  height: 48px;
+  inline-size: 90.2656px;
+  inset-block-end: 0px;
+  inset-block-start: 228px;
+  inset-inline-end: 0px;
+  inset-inline-start: 377.734px;
+  left: 377.734px;
+  margin-block-end: -20px;
+  margin-inline-end: -20px;
+  max-inline-size: 100%;
+  max-width: 100%;
+  perspective-origin: 45.125px 24px;
+  position: absolute;
+  right: 0px;
+  text-size-adjust: 100%;
+  top: 228px;
+  transform-origin: 45.1328px 24px;
+  vertical-align: middle;
+  width: 90.2656px;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 0px -20px -20px 0px;
+}/*#plvIMG_10, #plvIMG_20*/
+
+#plvIMG_10:after, #plvIMG_20:after {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  display: block;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvIMG_10:after, #plvIMG_20:after*/
+
+#plvIMG_10:before, #plvIMG_20:before {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  display: block;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvIMG_10:before, #plvIMG_20:before*/
+
+#plvPICTURE_11, #plvPICTURE_21 {
+  block-size: 0px;
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  display: block;
+  height: 0px;
+  inline-size: 368px;
+  min-block-size: auto;
+  min-height: auto;
+  min-inline-size: auto;
+  min-width: auto;
+  perspective-origin: 184px 0px;
+  text-size-adjust: 100%;
+  transform-origin: 184px 0px;
+  width: 368px;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvPICTURE_11, #plvPICTURE_21*/
+
+#plvPICTURE_11:after, #plvPICTURE_21:after {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvPICTURE_11:after, #plvPICTURE_21:after*/
+
+#plvPICTURE_11:before, #plvPICTURE_21:before {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvPICTURE_11:before, #plvPICTURE_21:before*/
+
+#plvSOURCE_12, #plvSOURCE_22 {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  perspective-origin: 0px 0px;
+  text-size-adjust: 100%;
+  transform-origin: 0px 0px;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvSOURCE_12, #plvSOURCE_22*/
+
+#plvSOURCE_12:after, #plvSOURCE_22:after {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvSOURCE_12:after, #plvSOURCE_22:after*/
+
+#plvSOURCE_12:before, #plvSOURCE_22:before {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvSOURCE_12:before, #plvSOURCE_22:before*/
+
+#plvIMG_13, #plvIMG_23 {
+  block-size: 204.672px;
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  bottom: 19.3281px;
+  box-sizing: border-box;
+  display: block;
+  height: 204.672px;
+  inline-size: 192px;
+  inset-block-end: 19.3281px;
+  inset-block-start: 128px;
+  inset-inline-end: 0px;
+  inset-inline-start: 352px;
+  left: 352px;
+  margin-block-start: -96px;
+  margin-inline-end: -96px;
+  max-inline-size: 100%;
+  max-width: 100%;
+  perspective-origin: 96px 102.328px;
+  position: absolute;
+  right: 0px;
+  text-size-adjust: 100%;
+  top: 128px;
+  transform-origin: 96px 102.336px;
+  vertical-align: middle;
+  width: 192px;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: -96px -96px 0px 0px;
+}/*#plvIMG_13, #plvIMG_23*/
+
+#plvIMG_13:after, #plvIMG_23:after {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvIMG_13:after, #plvIMG_23:after*/
+
+#plvIMG_13:before, #plvIMG_23:before {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvIMG_13:before, #plvIMG_23:before*/
+
+#plvP_14 {
+  
+  border-block-end-color: rgb(102, 102, 102);
+  border-block-end-style: solid;
+  border-block-start-color: rgb(102, 102, 102);
+  border-block-start-style: solid;
+  border-inline-end-color: rgb(102, 102, 102);
+  border-inline-end-style: solid;
+  border-inline-start-color: rgb(102, 102, 102);
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  caret-color: rgb(102, 102, 102);
+  color: rgb(102, 102, 102);
+  column-rule-color: rgb(102, 102, 102);
+ 
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+ 
+  min-block-size: auto;
+  min-height: auto;
+  min-inline-size: auto;
+ 
+  perspective-origin: 144px 60px;
+  text-align: left;
+  text-decoration: none solid rgb(102, 102, 102);
+  text-size-adjust: 100%;
+  transform-origin: 144px 60px;
+ 
+  border: 0px solid rgb(102, 102, 102);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 0px 80px 0px 0px;
+  outline: rgb(102, 102, 102) none 0px;
+}/*#plvP_14*/
+
+#plvP_14:after {
+  border-block-end-color: rgb(102, 102, 102);
+  border-block-end-style: solid;
+  border-block-start-color: rgb(102, 102, 102);
+  border-block-start-style: solid;
+  border-inline-end-color: rgb(102, 102, 102);
+  border-inline-end-style: solid;
+  border-inline-start-color: rgb(102, 102, 102);
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  caret-color: rgb(102, 102, 102);
+  color: rgb(102, 102, 102);
+  column-rule-color: rgb(102, 102, 102);
+  text-align: left;
+  text-decoration: none solid rgb(102, 102, 102);
+  text-size-adjust: 100%;
+  border: 0px solid rgb(102, 102, 102);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  outline: rgb(102, 102, 102) none 0px;
+}/*#plvP_14:after*/
+
+#plvP_14:before {
+  border-block-end-color: rgb(102, 102, 102);
+  border-block-end-style: solid;
+  border-block-start-color: rgb(102, 102, 102);
+  border-block-start-style: solid;
+  border-inline-end-color: rgb(102, 102, 102);
+  border-inline-end-style: solid;
+  border-inline-start-color: rgb(102, 102, 102);
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  caret-color: rgb(102, 102, 102);
+  color: rgb(102, 102, 102);
+  column-rule-color: rgb(102, 102, 102);
+  text-align: left;
+  text-decoration: none solid rgb(102, 102, 102);
+  text-size-adjust: 100%;
+  border: 0px solid rgb(102, 102, 102);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  outline: rgb(102, 102, 102) none 0px;
+}/*#plvP_14:before*/
+
+#plvP_15, #plvP_25 {
+  block-size: 21px;
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  height: 21px;
+  inline-size: 368px;
+  margin-block-end: 0px;
+  margin-block-start: 8px;
+  min-block-size: auto;
+  min-height: auto;
+  min-inline-size: auto;
+  min-width: auto;
+  perspective-origin: 184px 10.5px;
+  text-align: left;
+  text-size-adjust: 100%;
+  transform-origin: 184px 10.5px;
+  width: 368px;
+  border: 0px solid rgb(0, 0, 0);
+  font: 600 14px / 21px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 8px 0px 0px;
+}/*#plvP_15, #plvP_25*/
+
+#plvP_15:after, #plvP_25:after {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  text-align: left;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 600 14px / 21px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvP_15:after, #plvP_25:after*/
+
+#plvP_15:before, #plvP_25:before {
+  border-block-end-style: solid;
+  border-block-start-style: solid;
+  border-inline-end-style: solid;
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  text-align: left;
+  text-size-adjust: 100%;
+  border: 0px solid rgb(0, 0, 0);
+  font: 600 14px / 21px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}/*#plvP_15:before, #plvP_25:before*/
+
+#plvP_24 {
+  block-size: 72px;
+  border-block-end-color: rgb(102, 102, 102);
+  border-block-end-style: solid;
+  border-block-start-color: rgb(102, 102, 102);
+  border-block-start-style: solid;
+  border-inline-end-color: rgb(102, 102, 102);
+  border-inline-end-style: solid;
+  border-inline-start-color: rgb(102, 102, 102);
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  caret-color: rgb(102, 102, 102);
+  color: rgb(102, 102, 102);
+  column-rule-color: rgb(102, 102, 102);
+  height: 72px;
+ 
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  margin-inline-end: 80px;
+  min-block-size: auto;
+  min-height: auto;
+  min-inline-size: auto;
+  min-width: auto;
+  perspective-origin: 144px 36px;
+  text-align: left;
+  text-decoration: none solid rgb(102, 102, 102);
+  text-size-adjust: 100%;
+  transform-origin: 144px 36px;
+
+  border: 0px solid rgb(102, 102, 102);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 0px 80px 0px 0px;
+  outline: rgb(102, 102, 102) none 0px;
+}/*#IMGP_24*/
+
+#plvP_24:after {
+  border-block-end-color: rgb(102, 102, 102);
+  border-block-end-style: solid;
+  border-block-start-color: rgb(102, 102, 102);
+  border-block-start-style: solid;
+  border-inline-end-color: rgb(102, 102, 102);
+  border-inline-end-style: solid;
+  border-inline-start-color: rgb(102, 102, 102);
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  caret-color: rgb(102, 102, 102);
+  color: rgb(102, 102, 102);
+  column-rule-color: rgb(102, 102, 102);
+  text-align: left;
+  text-decoration: none solid rgb(102, 102, 102);
+  text-size-adjust: 100%;
+  border: 0px solid rgb(102, 102, 102);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  outline: rgb(102, 102, 102) none 0px;
+}/*#plvP_24:after*/
+
+#plvP_24:before {
+  border-block-end-color: rgb(102, 102, 102);
+  border-block-end-style: solid;
+  border-block-start-color: rgb(102, 102, 102);
+  border-block-start-style: solid;
+  border-inline-end-color: rgb(102, 102, 102);
+  border-inline-end-style: solid;
+  border-inline-start-color: rgb(102, 102, 102);
+  border-inline-start-style: solid;
+  box-sizing: border-box;
+  caret-color: rgb(102, 102, 102);
+  color: rgb(102, 102, 102);
+  column-rule-color: rgb(102, 102, 102);
+  text-align: left;
+  text-decoration: none solid rgb(102, 102, 102);
+  text-size-adjust: 100%;
+  border: 0px solid rgb(102, 102, 102);
+  font: 16px / 24px "Proxima Nova", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  outline: rgb(102, 102, 102) none 0px;
+}/*#plvP_24:before*/
+
+
+
+
